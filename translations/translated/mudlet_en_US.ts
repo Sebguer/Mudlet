@@ -122,9 +122,9 @@ be in these areas...</numerusform>
         <location filename="../../src/TriggerUnit.cpp" line="382"/>
         <source>%n trigger(s) created while processing this line have been stopped: temporary ones removed, permanent ones switched off until the profile is reloaded.</source>
         <extracomment>%n is a count of triggers. Shown in the game window when a trigger keeps creating new triggers that match the same line, which would otherwise never end</extracomment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%n trigger created while processing this line has been stopped: a temporary one is removed, a permanent one switched off until the profile is reloaded.</numerusform>
+            <numerusform>%n triggers created while processing this line have been stopped: temporary ones removed, permanent ones switched off until the profile is reloaded.</numerusform>
         </translation>
     </message>
 </context>
@@ -134,9 +134,9 @@ be in these areas...</numerusform>
         <location filename="../../src/ctelnet.cpp" line="833"/>
         <source>[ INFO ]  - Trying again in %n second(s)...</source>
         <extracomment>%n is the number of seconds before Mudlet tries the connection again.</extracomment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>[ INFO ]  - Trying again in %n second...</numerusform>
+            <numerusform>[ INFO ]  - Trying again in %n seconds...</numerusform>
         </translation>
     </message>
     <message numerus="yes">
